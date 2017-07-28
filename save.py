@@ -65,4 +65,4 @@ def save_spreadsheet(filename, data_sample):
 # write_min_max_csv('min_max.csv', gucci_ties[1:])
 # write_two_cols('test_silk_ties', silk_ties, 2, 3)
 kiton_ties = filter_col_by_string(data_from_csv, 'brandName', 'Kiton')
-save_spreadsheet('kiton_ties.xls', kiton_ties)
+# save_spreadsheet('kiton_ties.xls', kiton_ties)
